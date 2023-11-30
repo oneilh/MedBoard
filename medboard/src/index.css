@@ -1,27 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
-  
+
   .navbar{
     background-color: #009efb;
     color :white;
     padding:0.25rem 15px;
     display: flex;
     align-items: center;
-    max-width: 100%;
+    max-width:100%;
     margin: 0 auto;
     border-radius: 0;
     border-bottom: 1px solid rgba(0,0,0,.1);
-  
+    justify-content: space-between;
   }
 
   .navbar .links{
     margin-left: auto;
+   
   }
-
-
-.navbar a {
+  .navbar a {
     margin-left: 16px;
     text-decoration: none;
     padding: 6px;
+    color: #ffffff;
+   
+  }
+  .slidessigma,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
+
+  .slidessigma{
+    position: relative;
+    margin: 30px auto;
+    font-size: 1.2rem; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    
+    /* padding-right: 15px; 
+    padding-left: 5px;*/
+}
+    
+  
+
+  .slidessigma .doctors,.nurse,.patients,.pharmacist{
+    position: relative;
+    background-color:#009efb ;
+    justify-content: space-between;
+    text-align: left;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding:16px;
+    width:15rem;
+    height: 100%;
+    background-image: linear-gradient(to right,#009efb , #ffffff);
+    color: #ffffff;
+    font-size: 16px bold;
+    font-family: Lato,sans-serif;
+    line-height: 2;
+    
+  }
+
+  
+.slidessigma .icon,.icon1,.icon2,.icon3{
+  position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background: #009efb;
+    padding: 20px ;
+    border-radius: 50px 5px 5px 50px;
+    text-align: center;
+    line-height: 2;
+}

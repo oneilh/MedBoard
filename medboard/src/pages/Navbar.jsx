@@ -1,13 +1,18 @@
 
+import { Link } from "react-router-dom";
+
   const Navbar = () => {
+
     return ( 
         <nav className="navbar">
+          
             <h1>MEDBOARD</h1>
-            <div className="links">
-              <div><h4>make an appointment</h4></div>
-              <div><h4>write a prescription</h4></div>
-              <div><h4>Generate Report</h4></div>
-            </div>
+           <div className="nav">
+           <Link to="/appoinment">appoinment</Link>
+                <Link to="/prescription" >prescription</Link>
+                <Link to="/report" >report</Link>
+             
+              </div>
         </nav>
      );
 }
