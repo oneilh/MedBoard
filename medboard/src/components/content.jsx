@@ -1,20 +1,22 @@
 import React from 'react'
+import ANH from './ANH'
+import Docprofile from './Docprofile'
+import Calendar from './calendar'
 
-const content = () => {
+const Content = () => {
   return (
-    <div>
+    <section className="content">
         <div className="ANH">
-
+        <ANH/>
         </div>
         <div className="calendar">
-
+        <Calendar/>
         </div>
-        <div className="bookDoc">
-            
+        <div className="Docprofile">
+            <Docprofile/>
         </div>
-      
-    </div>
+    </section>
   )
 }
 
-export default content
+export default Content
