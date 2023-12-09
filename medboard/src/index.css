@@ -124,3 +124,14 @@ button{
   border-radius: 0.2rem;
   padding: 5px;
 }
+
+.Hospital{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+line{
+  display: block;
+  width: 832px;
+  height: 416px;
+}
