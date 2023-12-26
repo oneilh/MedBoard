@@ -2,6 +2,7 @@
 
   *{
     font-family: Lato,sans-serif;
+    
   }
 
   .navbar{
@@ -129,9 +130,61 @@ button{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
+.birthanddeath{
+  justify-content: center;
+}
+.birthanddeath, h2{
+  font-size: 16px;
+}
 line{
   display: block;
   width: 832px;
   height: 416px;
+}
+.bda{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+
+.progressbar{
+  box-sizing: border-box;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 2rem;
+  display: flex;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  
+  border-radius: 0.25rem;
+}
+.blue{
+  color: #007BFF;
+  background-color: #007BFF;
+  width: 45.07%;
+  display: flex;
+    overflow: hidden;
+}
+
+.red{
+  color:#DC3545;
+  background-color: #DC3545;
+  width: 29.05%;
+  display: flex;
+    overflow: hidden;
+}
+.yellow{
+  color: #FFC107;
+  background-color: #FFC107;
+  width: 18.43%;
+  display: flex;
+    overflow: hidden;
+}
+
+.staffimages img{
+  border-radius: 50%;
+  width: 100px;
+
+  
 }
