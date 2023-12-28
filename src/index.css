@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root{
+  --txt-primary: black;
+  --txt-secondary: white;
+  --bg-primary:  #009efb;
+  --b-radius: 5px;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  
+  font-size: 16px;
+  height: 100dvh;
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #009efb;
+  color: white;
+  padding: 0.25rem 15px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #ffffff;
+}
+
+
+.slidessigma .icon,
+.icon1,
+.icon2,
+.icon3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background: #009efb;
+  padding: 20px;
+  border-radius: 50px 5px 5px 50px;
+  text-align: center;
+  line-height: 2;
+}
+
+
+
+
+
+
+
+.lorem {
+  font-weight: 200;
+  color: #dfdbdb;
+}
+button {
+  background-color: #009efb;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 5px;
+}
+
+.Hospital {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.birthanddeath {
+  justify-content: center;
+}
+.birthanddeath,
+h2 {
+  font-size: 16px;
+}
+line {
+  display: block;
+  width: 832px;
+  height: 416px;
+}
+.bda {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.progressbar {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 2rem;
+  display: flex;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0.75rem;
+
+  border-radius: 0.25rem;
+}
+.blue {
+  color: #007bff;
+  background-color: #007bff;
+  width: 45.07%;
+  display: flex;
+  overflow: hidden;
+}
+
+.red {
+  color: #dc3545;
+  background-color: #dc3545;
+  width: 29.05%;
+  display: flex;
+  overflow: hidden;
+}
+.yellow {
+  color: #ffc107;
+  background-color: #ffc107;
+  width: 18.43%;
+  display: flex;
+  overflow: hidden;
+}
+
+.staffimages img {
+  border-radius: 50%;
+  width: 100px;
+}

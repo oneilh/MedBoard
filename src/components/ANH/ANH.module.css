@@ -1,0 +1,12 @@
+.anh {
+    background-color: #eae7e7;
+    border: 1px solid #009efb;
+    border-radius: var(--b-radius) var(--b-radius) 0 0;
+    padding: 1rem;
+    text-align: left;
+  }
+  .item_1,
+  .item_2,
+  .item_3 {
+    grid-column: 1 / 5;
+  }

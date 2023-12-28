@@ -1,0 +1,9 @@
+.layout{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: 7rem 13rem 13rem 13rem auto;
+    height: 100dvh;
+    padding: 2rem;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
